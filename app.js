@@ -1,6 +1,6 @@
 'use strict';
 
-function funct(){
+function date(){
     let today = new Date();
     let formatDate = today.toDateString();
     let selectElement = document.getElementById('date');
