@@ -2,6 +2,16 @@ body {
     font-family: helvetica;
 }
 
+h2 {
+    font-size: 14px;
+    font-style: bold;
+}
+
+h3 {
+    font-size: 10px;
+    font-style: italic;
+}
+
 ul {
     font-family: monospace;
 }
