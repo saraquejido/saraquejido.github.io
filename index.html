@@ -6,7 +6,12 @@
     <title>Hello World!</title>
     <link rel="stylesheet" href="main.css">
     <link rel="shortcut icon" href="favicon.png" type="image/png"/>
-    <script src="app.js"></script>
+    <script>
+        let today = new Date();
+        let formatDate = today.toDateString();
+        let selectElement = document.getElementById('date');
+        selectElement.innerHTML = formatDate;
+    </script>
 </head>
 <body>
     <p> <h1>Hello World!</h1></p>
