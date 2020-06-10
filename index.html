@@ -6,14 +6,12 @@
     <title>Hello World!</title>
     <link rel="stylesheet" href="main.css">
     <link rel="shortcut icon" href="favicon.png" type="image/png"/>
-    <script>
-        let today = new Date();
-        let formatDate = today.toDateString();
-        let selectElement = document.getElementById('date');
-        selectElement.innerHTML = "<h2> Today's date is " + formatDate + "</h2>";
-    </script>
 </head>
 <body>
+    <script>
+        let today = new Date();
+        document.body.innerHTML = "<h2> Today's date is " + today + "</h2>";
+    </script>
     <p> <h1>Hello World!</h1></p>
     <style media="screen">
         h2 {
