@@ -1,2 +1,4 @@
 let today = new Date();
-document.getElementById("today");
+let formatDate = today.toDateString();
+let selectElement = document.getElementById("date");
+selectElement.innerHTML = formatDate;
