@@ -37,6 +37,25 @@
     border-radius: 12px;
     box-shadow: 0 5px black;
 }
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid goldenrod;
+    border-radius: 6px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: green;
+    color: whitesmoke;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 6px;
+}
+
 </style>
 <body>
     <p> <h1>Hello World!</h1></p>
@@ -49,11 +68,27 @@
         }
     </script>
 
-    <p> <h2>World continents: </h2><br>
+    <p> <h3>World continents: </h3><br>
         <img src="https://static.euronews.com/articles/stories/03/95/83/36/602x338_cmsv2_7c0993c5-bafd-5f41-a0ca-ee961e26cf6c-3958336.jpg"
         alt="Image 1" />
-
     <p>
+
+    <p> Which continent are you from?</p>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name...">
+        <label for="continent">Continent</label>
+        <select id="continent" name="continent">
+            <option value="europe">Europe</option>
+            <option value="america">America</option>
+            <option value="asia">Asia</option>
+            <option value="africa">Africa</option>
+            <option value="oceania">Oceania</option>
+            <option value="antartica">Anartica</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
         <h6>Built by Sara Quejido</h6>
     </p>
 </body>
