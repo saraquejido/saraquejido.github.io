@@ -15,3 +15,11 @@ h3 {
 ul {
     font-family: monospace;
 }
+
+button {
+    background-color: aqua;
+    color: blue;
+    padding: 15px 32px;
+    font-size: 16px;
+    text-align: center;
+}
