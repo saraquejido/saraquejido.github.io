@@ -30,11 +30,12 @@
 
 <body>
     <p> <h1>Hello World!</h1></p>
+    
     <p id="date">Click the button to show the date.</p>
     <button onclick="dateFunction()">Click!</button>
     <script>
         function dateFunction() {
-            document.getElementById("date").innerHTML = getDate();
+            document.getElementById("date").innerHTML = new Date();
         }
     </script>
 
