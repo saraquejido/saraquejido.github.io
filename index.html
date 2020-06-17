@@ -30,11 +30,12 @@
 
 <body>
     <p> <h1>Hello World!</h1></p>
-    <p id="date"></p>
+    <p id="date">Click the button to show the date.</p>
+    <button onclick="dateFunction()">Click!</button>
     <script>
-        let today = new Date();
-        let formatDate = today.toDateString();
-        document.getElementById("date").innerHTML;
+        function dateFunction() {
+            document.getElementById("date").innerHTML = getDate();
+        }
     </script>
 
     <p> <h2>World continents: </h2><br>
