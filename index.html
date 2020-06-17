@@ -31,74 +31,16 @@
 <body>
     <p> <h1>Hello World!</h1></p>
     <p id="date"></p>
-    <script src=\js\script.js\></script>
+    <script>
+        let today = new Date();
+        let formatDate = today.toDateString();
+        document.getElementById("date").innerHTML;
+    </script>
+
     <p> <h2>World continents: </h2><br>
         <img src="https://static.euronews.com/articles/stories/03/95/83/36/602x338_cmsv2_7c0993c5-bafd-5f41-a0ca-ee961e26cf6c-3958336.jpg"
         alt="Image 1" />
-    </p>
-    <div id="world-continents" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#world-continents" data-slide-to="0" class="active"></li>
-            <li data-target="#world-continents" data-slide-to="1"></li>
-            <li data-target="#world-continents" data-slide-to="2"></li>
-            <li data-target="#world-continents" data-slide-to="3"></li>
-            <li data-target="#world-continents" data-slide-to="4"></li>
-            <li data-target="#world-continents" data-slide-to="5"></li>
-        </ol>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src=europe.jpg alt="Europe">
-                <div class="carousel-caption">
-                    <h3>Europe</h3>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img src=asia.jpg alt="Asia">
-                <div class="carousel-caption">
-                    <h3>Asia</h3>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img src=america.jpg alt="America">
-                <div class="carousel-caption">
-                    <h3>America</h3>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img src=africa.jpg alt="Africa">
-                <div class="carousel-caption">
-                    <h3>Africa</h3>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img src=oceania.jpg alt="Oceania">
-                <div class="carousel-caption">
-                    <h3>Oceania</h3>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img src=antartica.jpg alt="Antartica">
-                <div class="carousel-caption">
-                    <h3>Antartica</h3>
-                </div>
-            </div>
-        </div>
-
-        <a class="carousel-control-prev" href="#world-continents" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="carousel-control-next" href="#worldContinents" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div>
-    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src ="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script> 
     <p>
         <h6>Built by Sara Quejido</h6>
     </p>
