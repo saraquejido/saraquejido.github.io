@@ -39,7 +39,7 @@
 }
 
 input[type=text], select {
-    width: 100%;
+    width: 30px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -48,7 +48,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
-    width: 100%;
+    width: 20px;
     background-color: green;
     color: whitesmoke;
     padding: 12px 20px;
@@ -74,21 +74,24 @@ input[type=submit] {
     <p>
 
     <p> Which continent are you from?</p>
-    <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your name...">
-        <label for="continent">Continent</label>
-        <select id="continent" name="continent">
-            <option value="europe">Europe</option>
-            <option value="america">America</option>
-            <option value="asia">Asia</option>
-            <option value="africa">Africa</option>
-            <option value="oceania">Oceania</option>
-            <option value="antartica">Anartica</option>
-        </select>
-
-        <input type="submit" value="Submit">
-    </form>
+    <div>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name...">
+            <label for="continent">Continent</label>
+            <select id="continent" name="continent">
+                <option value="europe">Europe</option>
+                <option value="america">America</option>
+                <option value="asia">Asia</option>
+                <option value="africa">Africa</option>
+                <option value="oceania">Oceania</option>
+                <option value="antartica">Anartica</option>
+            </select>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
         <h6>Built by Sara Quejido</h6>
     </p>
 </body>
